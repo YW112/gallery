@@ -5,11 +5,14 @@
     align-items: center;
 }
 body {
-    background-color: rgb(168, 91, 240);
+    background-color:peachpuff;
 }
 h1 {
     margin-left: 500px;
     margin-right: 500px;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    list-style-image: url(/assets/images/dots.png);
 }

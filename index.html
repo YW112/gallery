@@ -4,16 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Волшебная галерея</title>
+    <link rel="shortcut icon" href="/assets/images/icon.png">
     <link rel="stylesheet" href="/styles/style.css">
     </head>
     <body>
     <h1>Волшебная галерея</h1>
     <nav>
-    
+        <ul>
+            <li>
+                <a href="#cauldron">Котлы</a>
+            </li>
+            <li>
+                <a href="#exclusive">Эксклюзив</a>
+            </li>
+            <li><a href="#dream_catcher">Ловцы снов</a>
+            </li>
+            <li>
+                <a href="#Useful-items">Инвентарь для занятий</a>
+            </li>
+            <li>
+        <form>
+            <div>
+                <label for="search">Поиск по сайту:</label>
+                <input type="search" placeholder="..." id="search">
+            </div>
+        </form>
+            </li>
+        </ul>
     </nav>
     <div class="flex-container">
         <div>
-    <figure>
+    <figure id="cauldron">
         <img src="/assets/images/Cauldron.png" alt="cauldron with bubbles" title="Подходит для приготовления зелья любой сложности">
         <figcaption>
             Котёл для занятий зельеварением. Усиленная защита магией.
@@ -22,18 +43,24 @@
 </div>
 <div>
     <figure>
-        <img src="/assets/images/Cauldron2.avif" alt="cauldron with potion" title="Переносной, со съёмными крыльями для перевозки">
+        <img src="/assets/images/Cauldron2.png" alt="cauldron with potion" title="Переносной, со съёмными крыльями для перевозки">
         <figcaption>Котёл переносной. Стандарт.</figcaption>
     </figure>
 </div>
 <div>
-    <figure>
+    <figure id="Useful-items">
         <img src="/assets/images/Crystall-ball.png" alt="purple crystall ball" title="Ловит связь даже во время полёта на метле">
         <figcaption>Хрустальный шар</figcaption>
     </figure>
 </div>
 <div>
     <figure>
+        <img src="/assets/images/Invisibility-Cloak.png" alt="Lying invisibility cloak" title="Надёжное переносное убежище">
+        <figcaption>Мантия-невидимка</figcaption>
+    </figure>
+</div>
+<div>
+    <figure id="dream_catcher">
         <img src="/assets/images/Dream-Catcher.jpg" alt="Dream catcher with flowers" title="С приятным лавандовым шлейфом">
         <figcaption>Лавандовый ловец снов</figcaption>
     </figure>
@@ -45,14 +72,8 @@
     </figure>
 </div>
 <div>
-    <figure>
-        <img width: 200px height: 200px src="/assets/images/Invisibility-Cloak.png" alt="Lying invisibility cloak" title="Надёжное переносное убежище">
-        <figcaption>Мантия-невидимка</figcaption>
-    </figure>
-</div>
-<div>
-    <figure>
-        <img width: 200px height: 200px src="/assets/images/unicorn-horn.png" alt="Unicorn horn" title="Исключительный материал для изготовления волшебной палочки">
+    <figure id="exclusive">
+        <img src="/assets/images/unicorn-horn.png" alt="Unicorn horn" title="Исключительный материал для изготовления волшебной палочки">
         <figcaption>Рог единорога</figcaption>
     </figure>
 </div>
